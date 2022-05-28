@@ -16,7 +16,7 @@ namespace eTickets
         {
             CreateWebHostBuilder(args).Build().Run();
         }
-        //Adding Comment in Program File
+
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
